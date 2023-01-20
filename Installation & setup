@@ -1,5 +1,6 @@
 # Jenkins
 sudo apt-get install openjdk-8-jdk
+java --version 
 
 sudo wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
 
