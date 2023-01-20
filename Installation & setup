@@ -17,3 +17,8 @@ ifconfig
 
 **172.17.0.1:*port(8080)
 
+## access your jenkins by password
+
+sudo cat *(/var/lib/jenkins/secrets/initialAdminPassword)
+**(passwordor key)
+
