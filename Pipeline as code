@@ -1,1 +1,12 @@
 
+The Jenkinsfile
+Presence of the Jenkinsfile in the root of a repository makes it eligible for Jenkins to automatically manage and execute jobs based on repository branches.
+
+The Jenkinsfile should contain a Pipeline script, specifying the steps to execute the job. The script has all the power of Pipeline available, from something as simple as invoking a Maven builder, to a series of interdependent steps, which have coordinated parallel execution with deployment and validation phases.
+
+A simple way to get started with Pipeline is to use the Snippet Generator available in the configuration screen for a Jenkins Pipeline job. Using the Snippet Generator, you can create a Pipeline script as you might through the dropdowns in other Jenkins jobs.
+
+Folder Computation
+Multibranch Pipeline projects and Organization Folders extend the existing folder functionality by introducing 'computed' folders. Computed folders automatically run a process to manage the folder contents. This computation, in the case of Multibranch Pipeline projects, creates child items for each eligible branch within the child. For Organization Folders, computation populates child items for repositories as individual Multibranch Pipelines.
+
+Folder computation may happen automatically via webhook callbacks, as branches and repositories are created or removed. Computation may also be triggered by the Build Trigger defined in the configuration, which will automatically run a computation task after a period of inactivity (this defaults to run after one day).
