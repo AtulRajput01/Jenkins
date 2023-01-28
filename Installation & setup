@@ -20,5 +20,5 @@ ifconfig
 ## access your jenkins by password
 
 sudo cat *(/var/lib/jenkins/secrets/initialAdminPassword)
-**(passwordor key)
+**(password  key)
 
