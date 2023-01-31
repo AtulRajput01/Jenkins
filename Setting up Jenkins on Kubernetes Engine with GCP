@@ -68,3 +68,7 @@ kubectl get pods
 
 echo http://127.0.0.1:8080
 kubectl --namespace default port-forward svc/myjenkins 8080:8080 >> /dev/null &
+
+~~Now, check that the Jenkins Service was created properly:
+
+kubectl get svc
