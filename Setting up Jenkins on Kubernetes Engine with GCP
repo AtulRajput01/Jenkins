@@ -34,3 +34,7 @@ gcloud container clusters create jenkins-cd \
 ~~ Confirm that your cluster is running:
 
 gcloud container clusters list
+
+~~ Get the credentials for your cluster. Kubernetes Engine uses these credentials to access your newly provisioned cluster.
+
+gcloud container clusters get-credentials jenkins-cd
