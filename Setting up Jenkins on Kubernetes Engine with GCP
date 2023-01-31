@@ -30,3 +30,7 @@ cd continuous-deployment-on-kubernetes
 gcloud container clusters create jenkins-cd \
 --num-nodes 2 \
 --scopes "https://www.googleapis.com/auth/projecthosting,cloud-platform"
+
+~~ Confirm that your cluster is running:
+
+gcloud container clusters list
