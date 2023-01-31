@@ -64,3 +64,7 @@ helm upgrade --install -f jenkins/values.yaml myjenkins jenkins/jenkins
 
 kubectl get pods
 
+~~Run the following command to setup port forwarding to the Jenkins UI from the Cloud Shell:
+
+echo http://127.0.0.1:8080
+kubectl --namespace default port-forward svc/myjenkins 8080:8080 >> /dev/null &
