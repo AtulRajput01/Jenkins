@@ -1,0 +1,4 @@
+~~ setup account and active cloud shell
+gcloud auth list
+
+~ Authorize.
