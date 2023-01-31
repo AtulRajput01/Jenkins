@@ -4,3 +4,14 @@ gcloud auth list
 
 ~authorize.
 
+~~ You can list the project ID with this command:
+gcloud config list projetc
+
+
+Task 1. Prepare the environment
+
+~~ Set the default Compute Engine zone to us-east1-b :
+
+gcloud config set compute/zone us-east1-b
+
+
