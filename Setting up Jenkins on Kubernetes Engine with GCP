@@ -26,3 +26,7 @@ cd continuous-deployment-on-kubernetes
 ## Creating a Kubernetes cluster
 
 ~~ Next, provision a Kubernetes cluster using Kubernetes Engine. This step can take several minutes to complete:
+
+gcloud container clusters create jenkins-cd \
+--num-nodes 2 \
+--scopes "https://www.googleapis.com/auth/projecthosting,cloud-platform"
