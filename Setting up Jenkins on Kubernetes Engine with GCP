@@ -50,6 +50,7 @@ Task 2. Configure Helm
 
 helm repo add jenkins https://charts.jenkins.io
 
+
 ~~ Update the repo to ensure you get the latest list of charts:
 helm repo update
 
@@ -79,3 +80,7 @@ Task 4. Connect to Jenkins
 ~~ The Jenkins chart will automatically create an admin password for you. To retrieve it, run:
 
 kubectl exec --namespace default -it svc/myjenkins -c jenkins -- /bin/cat /run/secrets/additional/chart-admin-password && echo
+
+
+~~~ To get to the Jenkins user interface, click on the Web Preview button in cloud shell, then click Preview on port 8080:
+~~ You should now be able to log in with the username admin and your auto-generated password.
