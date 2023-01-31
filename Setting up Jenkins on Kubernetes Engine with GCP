@@ -18,3 +18,9 @@ gcloud config set compute/zone us-east1-b
 ~~ Clone the sample code:
 
 git clone https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes.git
+
+~~ Navigate to the sample code directory:
+
+cd continuous-deployment-on-kubernetes
+
+## Creating a Kubernetes cluster
