@@ -43,3 +43,8 @@ gcloud container clusters get-credentials jenkins-cd
 
 kubectl cluster-info
 
+Task 2. Configure Helm
+
+~~ Add Helm's jenkins chart repository:
+
+helm repo add jenkins https://charts.jenkins.io
