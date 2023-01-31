@@ -72,3 +72,10 @@ kubectl --namespace default port-forward svc/myjenkins 8080:8080 >> /dev/null &
 ~~Now, check that the Jenkins Service was created properly:
 
 kubectl get svc
+
+
+Task 4. Connect to Jenkins
+
+~~ The Jenkins chart will automatically create an admin password for you. To retrieve it, run:
+
+kubectl exec --namespace default -it svc/myjenkins -c jenkins -- /bin/cat /run/secrets/additional/chart-admin-password && echo
