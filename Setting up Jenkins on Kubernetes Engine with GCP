@@ -59,3 +59,8 @@ Task 3. Configure and install Jenkins
 ~~ Use the Helm CLI to deploy the chart with your configuration set:
 
 helm upgrade --install -f jenkins/values.yaml myjenkins jenkins/jenkins
+
+~~ Once that command completes ensure the Jenkins pod goes to the Running state and the container is in the READY state. This may take about 2 minutes:
+
+kubectl get pods
+
