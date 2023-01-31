@@ -15,3 +15,6 @@ Task 1. Prepare the environment
 gcloud config set compute/zone us-east1-b
 
 
+~~ Clone the sample code:
+
+git clone https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes.git
