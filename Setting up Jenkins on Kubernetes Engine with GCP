@@ -24,3 +24,5 @@ git clone https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubern
 cd continuous-deployment-on-kubernetes
 
 ## Creating a Kubernetes cluster
+
+~~ Next, provision a Kubernetes cluster using Kubernetes Engine. This step can take several minutes to complete:
