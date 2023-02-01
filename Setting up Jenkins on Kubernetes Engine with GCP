@@ -83,4 +83,4 @@ kubectl exec --namespace default -it svc/myjenkins -c jenkins -- /bin/cat /run/s
 
 
 ~~~ To get to the Jenkins user interface, click on the Web Preview button in cloud shell, then click Preview on port 8080:
-~~ You should now be able to log in with the username admin and your auto-generated password.
+~~~ You should now be able to log in with the username admin and your auto-generated password.
