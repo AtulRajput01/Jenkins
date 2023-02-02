@@ -12,3 +12,5 @@ By default you would want a central administrator to define users in the system,
 Step 3 − You will be prompted to add your first user. As an example, we are setting up an admin users for the system.
 
 Step 4 − It’s now time to setup your users in the system. Now when you go to Manage Jenkins, and scroll down, you will see a ‘Manage Users’ option. Click this option.
+
+Step 5 − Just like you defined your admin user, start creating other users for the system. As an example, we are just creating another user called ‘user’.
