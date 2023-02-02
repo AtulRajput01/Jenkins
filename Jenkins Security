@@ -4,3 +4,8 @@ In Jenkins you have the ability to setup users and their relevant permissions on
 To configure Security in Jenkins, follow the steps given below.
 
 Step 1 − Click on Manage Jenkins and choose the ‘Configure Global Security’ option.
+
+Step 2 − Click on Enable Security option. As an example, let’s assume that we want Jenkins to maintain it’s own database of users, so in the Security Realm, choose the option of ‘Jenkins’ own user database’.
+
+By default you would want a central administrator to define users in the system, hence ensure the ‘Allow users to sign up’ option is unselected. You can leave the rest as it is for now and click the Save button.
+
