@@ -14,3 +14,14 @@ Step 3 − You will be prompted to add your first user. As an example, we are se
 Step 4 − It’s now time to setup your users in the system. Now when you go to Manage Jenkins, and scroll down, you will see a ‘Manage Users’ option. Click this option.
 
 Step 5 − Just like you defined your admin user, start creating other users for the system. As an example, we are just creating another user called ‘user’.
+
+Step 6 − Now it’s time to setup your authorizations, basically who has access to what. Go to Manage Jenkins → Configure Global Security.
+
+Now in the Authorization section, click on ‘Matrix based security’
+
+Authorization Section
+Step 7 − If you don’t see the user in the user group list, enter the user name and add it to the list. Then give the appropriate permissions to the user.
+
+Click on the Save button once you have defined the relevant authorizations.
+
+Your Jenkins security is now setup.
