@@ -1,1 +1,4 @@
 
+In Jenkins you have the ability to setup users and their relevant permissions on the Jenkins instance. By default you will not want everyone to be able to define jobs or other administrative tasks in Jenkins. So Jenkins has the ability to have a security configuration in place.
+
+To configure Security in Jenkins, follow the steps given below.
