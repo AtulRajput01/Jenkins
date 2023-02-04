@@ -3,4 +3,12 @@ On example is the “Deploy to container Plugin”.To use this follow the steps 
 
 Step 1 − Go to Manage Jenkins → Manage Plugins. Go to the Available section and find the plugin “Deploy to container Plugin” and install the plugin.
 Restart the Jenkins server.
+This plugin takes a war/ear file and deploys that to a running remote application server at the end of a build.
+
+Tomcat 4.x/5.x/6.x/7.x
+
+JBoss 3.x/4.x
+
+Glassfish 2.x/3.x
+
 
