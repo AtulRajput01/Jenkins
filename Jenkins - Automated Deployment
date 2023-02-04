@@ -1,1 +1,2 @@
-
+There are many plugins available which can be used to transfer the build files after a successful build to the respective application/web server.
+On example is the “Deploy to container Plugin”.To use this follow the steps given below.
