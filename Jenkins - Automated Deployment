@@ -13,3 +13,5 @@ Glassfish 2.x/3.x
 
 Step 2 − Go to your Build project and click the Configure option. Choose the option “Deploy war/ear to a container”
 
+Step 3 − In the Deploy war/ear to a container section, enter the required details of the server on which the files need to be deployed and click on the Save button.
+These steps will now ensure that the necessary files get deployed to the necessary container after a successful build.
