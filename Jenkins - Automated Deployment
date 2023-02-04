@@ -11,4 +11,5 @@ JBoss 3.x/4.x
 
 Glassfish 2.x/3.x
 
+Step 2 − Go to your Build project and click the Configure option. Choose the option “Deploy war/ear to a container”
 
