@@ -13,6 +13,15 @@ Instances belonging to this family are well suited for batch processing workload
 
 
 
+~~ Elastic compute cloud
+
+I want to launch an Amazon Elastic Compute Cloud (Amazon EC2) instance from a custom Amazon Machine Image (AMI).
+
+Resolution
+To launch a new EC2 instance from an AMI, do the following:
+
+Open the EC2 console.
+Note: Be sure to select the AWS Region that you want to launch the instance in.
 
 
 
