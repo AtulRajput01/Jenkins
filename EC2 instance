@@ -7,19 +7,7 @@ Amazon EC2 provides a wide selection of instance types optimized to fit differen
 
 Compute Optimized
 Compute Optimized instances are ideal for compute bound applications that benefit from high performance processors.
-Instances belonging to this family are well suited for batch processing workloads, media transcoding, high performance web servers, high performance computing (HPC), scientific modeling, dedicated gaming servers and ad server engines, machine learning inference and other compute intensive applications.
-
-
-
-
-
-~~ public key not acceseble
-1. check Ami id  , machine name like ubuntu or something
-
-
-
-
-
+Instances belonging to this family are well suited for batch processing workloads, media transcoding, high performance web servers, high performance computing (HPC), scientific modeling, dedicated gaming servers and ad server engines, machine learning inference and other compute intensive application
 
 
 
