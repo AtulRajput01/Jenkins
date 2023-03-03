@@ -24,6 +24,30 @@ Open the EC2 console.
 Note: Be sure to select the AWS Region that you want to launch the instance in.
 
 
+From the navigation bar, choose AMIs.
+Find the AMI that you want to use to launch a new instance. To begin, open the menu next to the search bar, and then choose one of the following:
+If the AMI that you’re using is one that you created, select Owned by me.
+If the AMI that you’re using is a public AMI, select Public images.
+If the AMI that you’re using is a private image that someone else shared with you, select Private images.
+Note: The search bar automatically provides filtering options as well as automatically matching AMI IDs.
+
+Select the AMI, and then choose Launch.
+Choose an instance type, and then choose Next: Configure Instance Details. Optionally select configuration details, such as associating an IAM role with the instance.
+Select Next: Add Storage. You can use the default root volume type, or select a new type from the Volume Type dropdown list. Select Add New Volume if you want to add additional storage to your instance.
+
+Select Next: Add Tags. You can add custom tags to your instance to help you categorize your resources.
+Select Next: Configure Security Group. You can associate a security group with your instance to allow or block traffic to the instance.
+Select Review and Launch. Review the instance details.
+Select Previous to return to a previous screen to make changes. Select Launch when you are ready to launch the instance.
+
+Select an existing key pair or create a new key pair, select the acknowledge agreement box, and then choose Launch Instances.
+Choose View Instances to check the status of your instance.
+
+
+~~ when you are connect with ssh key and you found an error like public key denited than you must have to check AMI id like machine name ubuntu or something like that correct it and connect with ssh key ..
+ssh -i aws.pem *ubuntu@15.206.164.166 
+
+
 
 
 
